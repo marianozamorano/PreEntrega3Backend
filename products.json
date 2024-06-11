@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Smartphone Samsung Galaxy S21",
+        "precio": 999.99,
+        "marca": "Samsung",
+        "descripcion": "Smartphone de gama alta con pantalla OLED de 6.2 pulgadas, cámara triple de 64 MP y procesador Exynos 2100.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Portátil HP Pavilion x360",
+        "precio": 849.99,
+        "marca": "HP",
+        "descripcion": "Portátil convertible con pantalla táctil de 14 pulgadas, procesador Intel Core i5 de décima generación y 8GB de RAM.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Televisor LG OLED CX",
+        "precio": 1799.99,
+        "marca": "LG",
+        "descripcion": "Televisor OLED de 55 pulgadas con resolución 4K, compatible con Dolby Vision y Dolby Atmos.",
+        "disponibilidad": false
+    },
+    {
+        "nombre": "Tablet Apple iPad Pro",
+        "precio": 1099.99,
+        "marca": "Apple",
+        "descripcion": "Tablet con pantalla Liquid Retina de 12.9 pulgadas, chip M1, cámara frontal de 12 MP y compatibilidad con Apple Pencil y Magic Keyboard.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Auriculares Sony WH-1000XM4",
+        "precio": 349.99,
+        "marca": "Sony",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido, hasta 30 horas de autonomía, control táctil y compatibilidad con asistentes de voz.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Cámara Canon EOS R5",
+        "precio": 3899.99,
+        "marca": "Canon",
+        "descripcion": "Cámara mirrorless con sensor CMOS de fotograma completo de 45 MP, grabación de vídeo 8K y estabilización de imagen de 5 ejes.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Smartwatch Garmin Fenix 6",
+        "precio": 699.99,
+        "marca": "Garmin",
+        "descripcion": "Smartwatch multideporte con GPS, pulsioxímetro, monitor de frecuencia cardíaca y resistencia al agua hasta 100 metros.",
+        "disponibilidad": false
+    },
+    {
+        "nombre": "Altavoz inteligente Amazon Echo Dot",
+        "precio": 49.99,
+        "marca": "Amazon",
+        "descripcion": "Altavoz inteligente con Alexa integrada, control de voz para música, noticias, información y dispositivos del hogar inteligente.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Monitor ASUS ROG Swift PG279Q",
+        "precio": 699.99,
+        "marca": "ASUS",
+        "descripcion": "Monitor gaming de 27 pulgadas con resolución WQHD, tasa de refresco de 165Hz, tecnología G-SYNC y tiempo de respuesta de 4ms.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Impresora Epson EcoTank ET-2760",
+        "precio": 299.99,
+        "marca": "Epson",
+        "descripcion": "Impresora multifunción con sistema de tanque de tinta, Wi-Fi integrado, impresión a doble cara y compatibilidad con impresión desde dispositivos móviles.",
+        "disponibilidad": true
+    }
+]

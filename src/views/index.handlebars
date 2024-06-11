@@ -1,0 +1,39 @@
+{{!-- Mostrar los productos obtenidos --}}
+
+<h2>Bienvenido, {{user.first_name}} {{user.last_name}}!</h2>
+<p>Email: {{user.email}}</p>
+<p>Edad: {{user.age}}</p>
+<p>Rol: {{user.role}}</p>
+
+<a href="/logout">Logout</a>
+<hr>
+<br>
+
+<a href="/api/carts/view-cart/{{cartId}}">Ver Carrito</a>
+{{#each productos}}
+<div class="producto">
+    <h3>{{this.nombre}}</h3>
+    <p>Precio: ${{this.precio}}</p>
+    <p>Marca: {{this.marca}}</p>
+    <p>{{this.descripcion}}</p>
+    <p>CartId: {{cartId}}</p>
+
+    <form method="POST" action="/api/carts/add-to-cart/{{this._id}}">
+        <label for="cantidad{{this._id}}">Cantidad:</label>
+        <input type="number" id="cantidad{{this._id}}" name="quantity" value="1" min="1">
+        
+        <button type="submit" formaction="/api/carts/add-to-cart/{{this._id}}">Agregar al carrito</button>
+    </form>
+
+</div>
+<hr>
+{{/each}}
+
+{{!-- Mostrar los botones de paginación --}}
+{{#if prevLink}}
+<a href="{{prevLink}}">Anterior</a>
+{{/if}}
+{{#if nextLink}}
+<a href="{{nextLink}}">Siguiente</a>
+{{/if}}
+<p>Pagina {{page}} de {{totalPages}}</p>
